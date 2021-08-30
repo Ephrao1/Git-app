@@ -13,6 +13,12 @@ export class PersonalComponent implements OnInit {
   username:string;
 
   constructor(private profileService: ProfileService) { 
+    
+  }
+
+  ngOnInit(){
+    this.username="Ephrao1"
+    this.profileService.updateProfile(this.username);
     this.profileService.getProfileInfo().subscribe((profile:any) => {
       console.log(profile);
       this.profile = profile;
@@ -23,10 +29,6 @@ export class PersonalComponent implements OnInit {
       console.log(repos);
       this.repos = repos;
     })
-  }
-
-  ngOnInit(){
-    
   }
 
 }
