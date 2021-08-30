@@ -1,5 +1,11 @@
 .search-form {
     padding-top: 50px;
+    
+}
+
+.search-form input {
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
 }
 .repos {
     margin: 3%;
