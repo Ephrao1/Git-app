@@ -2,7 +2,7 @@
 ## Developed by:
 Ephraim Bundi.
 ## Description
-This is an application which allows one to  search people github username and view their github profile as well as thier repositoreies.
+This is an application that allows one to  search people's github usernames and view their github profile as well as thier repositories.
 
 ## Technologies Used 
 This project was generated with Angular CLI version 12.18.3. The technologies used are HTML, CSS, Typescript and Bootstrap.
