@@ -1,0 +1,15 @@
+.search-form {
+    padding-top: 50px;
+}
+#repos {
+    background-color: black;
+    color: white;
+    
+}
+ 
+#details {
+    float: left;
+}
+ #img {
+     align-items: center;
+ }
