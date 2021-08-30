@@ -1,6 +1,18 @@
-# GitSearch
+# Git-Search
+## Developed by:
+Ephraim Bundi.
+## Description
+This is an application which allows one to  search people github username and view their github profile as well as thier repositoreies.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+## Technologies Used 
+This project was generated with Angular CLI version 12.18.3. The technologies used are HTML, CSS, Typescript and Bootstrap.
+
+## Installation
+* Fork the repository
+* Create new branch
+* Make changes in the file
+* Commit your changes
+* Push to the branch
 
 ## Development server
 
@@ -25,3 +37,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Licence
+Copyright &copy; 2021. [MIT] (https://choosealicense.com/licenses/mit/)
