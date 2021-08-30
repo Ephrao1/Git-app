@@ -16,6 +16,7 @@ export class PersonalComponent implements OnInit {
     this.profileService.getProfileInfo().subscribe((profile:any) => {
       console.log(profile);
       this.profile = profile;
+      
     });
 
     this.profileService.getProfileRepos().subscribe(repos => {
@@ -25,6 +26,7 @@ export class PersonalComponent implements OnInit {
   }
 
   ngOnInit(){
+    
   }
 
 }
